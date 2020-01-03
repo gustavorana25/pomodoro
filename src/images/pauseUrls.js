@@ -28,7 +28,14 @@ export const pause = [
     "https://images2.alphacoders.com/524/524880.jpg",
     "https://images8.alphacoders.com/417/417298.jpg",
     "https://images6.alphacoders.com/315/315677.jpg",
-    "https://images.alphacoders.com/591/591188.jpg"
+    "https://images.alphacoders.com/591/591188.jpg",
+    "https://images3.alphacoders.com/211/211449.jpg",
+    "https://images3.alphacoders.com/197/197669.jpg",
+    "https://images4.alphacoders.com/166/166564.jpg",
+    "https://images3.alphacoders.com/122/122699.jpg",
+    "https://images8.alphacoders.com/736/736526.jpg",
+    "https://images6.alphacoders.com/361/361123.jpg",
+    "https://images7.alphacoders.com/311/311596.jpg"
 ];
 
 //https://wall.alphacoders.com/by_category.php?id=24&name=Fotografia+Pap%C3%A9is+de+Parede&lang=Portuguese&page=31

@@ -30,5 +30,19 @@ export const work =[
     "https://images3.alphacoders.com/217/217487.jpg",
     "https://images3.alphacoders.com/102/1020088.jpg",
     "https://images6.alphacoders.com/372/372531.jpg",
-    "https://images7.alphacoders.com/352/352487.jpg"
+    "https://images7.alphacoders.com/352/352487.jpg",
+    "https://images4.alphacoders.com/217/217476.jpg",
+    "https://images2.alphacoders.com/210/210380.jpg",
+    "https://images4.alphacoders.com/161/161366.jpg",
+    "https://images.alphacoders.com/156/156913.jpg",
+    "https://images.alphacoders.com/151/151101.jpg",
+    "https://images2.alphacoders.com/723/723970.jpg",
+    "https://images.alphacoders.com/673/673295.png",
+    "https://images7.alphacoders.com/462/462071.jpg",
+    "https://images4.alphacoders.com/217/217484.jpg",
+    "https://images3.alphacoders.com/173/173647.jpg",
+    "https://images2.alphacoders.com/152/152190.jpg",
+    "https://images3.alphacoders.com/152/152167.jpg",
+    "https://images.alphacoders.com/594/594738.jpg",
+    "https://images2.alphacoders.com/582/582355.jpg"
 ];
