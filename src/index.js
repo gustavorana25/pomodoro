@@ -8,6 +8,7 @@ var audio = new Audio('assets/timer.wav');
 audio.volume = 0.4;
 var jobMinutes = 25;
 var pauseMinutes = 5;
+var longpauseMinutes = 10;
 const whiteSound = whitesoundPlayer();
 const timer = createTimer();
 const buttonsListener = createButtonsListeners();
@@ -20,6 +21,10 @@ const buttonsActions = {
     "pause-timer": () => {
         whiteSound.stop();
         timer.play(pauseMinutes * 60);
+    },
+    "longpause-timer": () => {
+        whiteSound.stop();
+        timer.play(longpauseMinutes * 60);
     },
     "stop": () => {
         whiteSound.stop();
