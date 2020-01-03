@@ -49,6 +49,11 @@ button {
     font-weight: bold;
     margin: 4px;
     outline: 0;
+    animation: all ease-in-out 1s;
+}
+
+button:active{
+    transform: scale(0.9);
 }
 
 .timer{
