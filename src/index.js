@@ -5,8 +5,8 @@ import { updateWallpaper } from './images/images';
 
 var audio = new Audio('assets/timer.wav');
 audio.volume = 0.4;
-var jobMinutes = 1;
-var pauseMinutes = 1;
+var jobMinutes = 25;
+var pauseMinutes = 5;
 const timer = createTimer();
 const buttonsListener = createButtonsListeners();
 
