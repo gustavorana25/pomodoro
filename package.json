@@ -1,15 +1,22 @@
 {
   "name": "pomodoro-timer",
   "version": "1.0.0",
-  "description": "just another pomodoro timer",
+  "description": "Just another pomodoro timer",
   "main": "src/index.js",
   "scripts": {
     "start": "rollup -c --watch",
+    "build": "rollup -c",
+    "deploy": "gh-pages -d public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Gustavo Raña",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavorana25/pomodoro"
+  },
+  "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "rollup": "^1.27.14",
     "rollup-plugin-babel-minify": "^9.1.1",
     "rollup-plugin-livereload": "^1.0.4",
