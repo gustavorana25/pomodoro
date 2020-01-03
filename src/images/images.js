@@ -1,9 +1,11 @@
 import { pause } from "./pauseUrls";
 import { work } from "./workUrls";
 
+const bg = document.getElementById('bg');
+
 export function updateWallpaper(type="job-timer"){
     const url = type==="job-timer" ? getWorkWallpaper() : getPauseWallpaper();
-    document.body.style.backgroundImage = `url(${url})`;
+    preloadImageAndChange(url);
 }
 
 function getWorkWallpaper(){
@@ -14,4 +16,13 @@ function getPauseWallpaper(){
     return pause[Math.floor(Math.random()*pause.length)];
 }
 
-updateWallpaper('pause-timer');
+function preloadImageAndChange(url){
+    const img = new Image();
+    img.src = url;
+    img.onload = ()=>{
+        bg.style.backgroundImage = `url(${url})`;
+        bg.style.filter = "none";
+    }
+}
+
+preloadImageAndChange("/assets/bg.jpg");
