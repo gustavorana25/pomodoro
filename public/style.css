@@ -77,8 +77,26 @@ h5{
     right: 6px;
     color: white;
     font-size: 7px;
+    text-align: right;
 }
 
 h5 a{
     color: white;
+}
+
+@media (max-width:600px){
+    .timeWrap{
+        width: 116px;
+        height: 116px;
+    }
+
+    h1{
+        font-size: 78px;
+    }
+
+    h2{
+        right: -17px;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
 }
