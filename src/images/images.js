@@ -25,4 +25,4 @@ function preloadImageAndChange(url){
     }
 }
 
-preloadImageAndChange("/assets/bg.jpg");
+preloadImageAndChange("assets/bg.jpg");
