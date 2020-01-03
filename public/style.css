@@ -9,6 +9,7 @@
 body{
     background-size: cover;
     background-position: center;
+    background-color: black;
     transition: background-image ease-in-out 1s;
 }
 
@@ -16,14 +17,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
 }
 
 .actions {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
+   margin: 0 20px 20px;
 }
 
 button {
@@ -39,6 +39,10 @@ button {
     outline: 0;
 }
 
+.timer{
+    margin: auto 0;
+    display: flex;
+}
 .timeWrap{
     width: 150px;
     height: 150px;
@@ -65,4 +69,16 @@ h2{
     font-size: 19px;
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+
+h5{
+    position: absolute;
+    bottom: 2px;
+    right: 6px;
+    color: white;
+    font-size: 7px;
+}
+
+h5 a{
+    color: white;
 }

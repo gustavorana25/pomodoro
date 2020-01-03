@@ -40,3 +40,5 @@ function randomDelayPlay(audio) {
         audio.play();
     }, randomMileSeconds);
 }
+
+export default whitesoundPlayer;

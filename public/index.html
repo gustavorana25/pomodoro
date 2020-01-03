@@ -8,27 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-image:url('http://www.4usky.com/data/out/68/164610068-palms-wallpapers.jpg')">
+<body>
     <main>
-       <div class="timeWrap">
-           <h1 id="minute">00</h1>
-           <h2>Minutos</h2>
-       </div>
-       <div class="timeWrap">
-           <h1 id="second">00</h1>
-           <h2>Segundos</h2>
+        <div class="timer">
+            <div class="timeWrap">
+                <h1 id="minute">00</h1>
+                <h2>Minutos</h2>
+            </div>
+            <div class="timeWrap">
+                <h1 id="second">00</h1>
+                <h2>Segundos</h2>
+            </div>
+        </div>
+
+       <div class="actions">
+           <button id="job-timer">Trabalho</button>
+           <button id="pause-timer">Pausa</button>
+           <button id="stop">Parar</button>
        </div>
     </main>
 
-    <div class="actions">
-        <button onclick="doTimer()">Job Timer</button>
-        <button onclick="doTimer('pause')">Pause</button>
-        <button onclick="stop()">Stop</button>
-    </div>
-
-    <script src="whitesound.js"></script>
-    <script src="images.js"></script>
-    <script src="timer.js"></script>
+    <script src="./build/bundle.js"></script>
+    <h5>Todas as imagens foram retiradas do site <a href="https://wall.alphacoders.com/">wall.alphacoders.com</a></h5>
 </body>
 
 </html>
